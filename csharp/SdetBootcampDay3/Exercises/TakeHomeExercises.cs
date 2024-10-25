@@ -4,6 +4,8 @@ using RestSharp;
 using SdetBootcampDay3.Models;
 using System.Net;
 
+//Creating comment to test branch publishing
+
 namespace SdetBootcampDay3.Exercises
 {
     [TestFixture]
