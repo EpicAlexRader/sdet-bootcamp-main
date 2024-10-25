@@ -16,11 +16,11 @@ namespace SdetBootcampDay1.Exercises
             /**
              * TODO: add an assertion that verifies that the resulting balance is 200.
              */
-            Assert.That(account.Deposit, Is.EqualTo(200));
+            Assert.That(account.Balance, Is.EqualTo(200));
             /**
              * TODO: add an assertion that verifies that the resulting balance is greater than 199.
              */
-            Assert.That(account.Deposit, Is.GreaterThan(199));
+            Assert.That(account.Balance, Is.GreaterThan(199));
         }
 
         [Test]
@@ -39,7 +39,7 @@ namespace SdetBootcampDay1.Exercises
             /**
              * TODO: assert that the resulting balance is equal to 100.
              */
-            Assert.That(account.Deposit, Is.EqualTo(100));
+            Assert.That(account.Balance, Is.EqualTo(100));
         }
 
         /**
@@ -56,7 +56,7 @@ namespace SdetBootcampDay1.Exercises
 
             account.Deposit(100);
             account.Withdraw(200);
-            Assert.That(account.Deposit, Is.EqualTo(-100));
+            Assert.That(account.Balance, Is.EqualTo(-100));
         }
     }
 }
